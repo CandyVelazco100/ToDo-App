@@ -7,8 +7,22 @@
   font-family: 'Gochi Hand', cursive;
 }
 
+@media only screen and (min-width: 500px) {
+  .app {
+    min-height: 100vh;
+  }
+}
+
 .app{
+  background-color: #a39bd2;
   min-height: 100vh;
-  display: grid;
-  background: #a39bd2;
+  padding: 1rem;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: hsl(198, 1%, 29%);
+  font-family: 'Gochi Hand', cursive;
+  text-align: center;
+  font-size: 130%;  
 }
